@@ -1,6 +1,7 @@
 package com.atguigu.qmall.user.mapper;
 
-import com.atguigu.qmall.user.bean.UmsMemberReceiveAddress;
+
+import com.atguigu.qmall.bean.UmsMemberReceiveAddress;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

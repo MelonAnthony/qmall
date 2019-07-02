@@ -36,6 +36,7 @@
         <jest.version>5.3.3</jest.version>
         <jna.version>4.5.1</jna.version>
         <beanUtils.version>1.9.3</beanUtils.version>
+        <codec.version>1.10</codec.version>
     </properties>
 
     <dependencyManagement>
@@ -134,7 +135,12 @@
                 <version>${beanUtils.version}</version>
             </dependency>
 
-
+            <!--MD5 SHA2 BASE64等加密工具-->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${codec.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

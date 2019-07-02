@@ -1,7 +1,7 @@
-package com.atguigu.qmall.user.service;
+package com.atguigu.qmall.service;
 
-import com.atguigu.qmall.user.bean.UmsMember;
-import com.atguigu.qmall.user.bean.UmsMemberReceiveAddress;
+import com.atguigu.qmall.bean.UmsMember;
+import com.atguigu.qmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
@@ -11,6 +11,7 @@ import java.util.List;
  * @Description:
  */
 public interface UserService {
+
     List<UmsMember> getAllUser();
 
     List<UmsMemberReceiveAddress> getReceiveAddressByMemberId(String memberId);

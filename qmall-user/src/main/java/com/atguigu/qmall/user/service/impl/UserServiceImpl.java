@@ -1,14 +1,13 @@
 package com.atguigu.qmall.user.service.impl;
 
-import com.atguigu.qmall.user.bean.UmsMember;
-import com.atguigu.qmall.user.bean.UmsMemberReceiveAddress;
+import com.atguigu.qmall.bean.UmsMember;
+import com.atguigu.qmall.bean.UmsMemberReceiveAddress;
+import com.atguigu.qmall.service.UserService;
+
 import com.atguigu.qmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.atguigu.qmall.user.mapper.UserMapper;
-import com.atguigu.qmall.user.service.UserService;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -18,7 +17,7 @@ import java.util.List;
  * @Description:
  */
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     @Autowired
     UserMapper userMapper;

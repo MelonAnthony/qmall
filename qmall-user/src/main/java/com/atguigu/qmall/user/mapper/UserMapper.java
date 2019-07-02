@@ -1,6 +1,7 @@
 package com.atguigu.qmall.user.mapper;
 
-import com.atguigu.qmall.user.bean.UmsMember;
+
+import com.atguigu.qmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;

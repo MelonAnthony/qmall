@@ -1,4 +1,4 @@
-package com.atguigu.qmall.user.bean;
+package com.atguigu.qmall.bean;
 
 import javax.persistence.Id;
 

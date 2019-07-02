@@ -1,11 +1,12 @@
 package com.atguigu.qmall.user.controller;
 
-import com.atguigu.qmall.user.bean.UmsMember;
-import com.atguigu.qmall.user.bean.UmsMemberReceiveAddress;
-import com.atguigu.qmall.user.service.UserService;
+import com.atguigu.qmall.bean.UmsMember;
+import com.atguigu.qmall.bean.UmsMemberReceiveAddress;
+import com.atguigu.qmall.service.UserService;
+import com.atguigu.qmall.bean.UmsMember;
+import com.atguigu.qmall.bean.UmsMemberReceiveAddress;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
