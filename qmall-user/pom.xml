@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.atguigu.com</groupId>
+		<groupId>com.atguigu.qmall</groupId>
 		<artifactId>qmall-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
@@ -18,11 +18,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.atguigu.qmall</groupId>
-			<artifactId>qmall-common-util</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.atguigu.qmall</groupId>
@@ -30,21 +25,16 @@
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>com.atguigu.qmall</groupId>
+            <artifactId>qmall-service-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
 		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.3.4</version>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+			<groupId>com.atguigu.qmall</groupId>
+			<artifactId>qmall-web-util</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
